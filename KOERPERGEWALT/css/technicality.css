@@ -1,0 +1,24 @@
+.iFrameLocation{
+    float: left;
+    margin: 0px;
+    width: 30%;
+    
+}
+
+iframe {
+    height: 2000px;
+    width: 50%;
+    border: none;
+}
+
+.ich{
+    overflow: hidden;
+}
+
+.du{
+    overflow: hidden;
+}
+
+.es{
+    overflow: hidden;
+}

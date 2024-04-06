@@ -1,0 +1,42 @@
+h1{
+  font-size: 4rem;
+  padding-bottom: 0px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+div{
+  padding-top: 60px;
+}
+
+
+.transition_02{
+    overflow-x: hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .ich{
+    color: black;
+  }
+
+  .du{
+    color: blue;
+  }
+
+  .es{
+    color: red;
+  }
+
+  .centerText{
+    text-align: center;
+  }
+
+ 
