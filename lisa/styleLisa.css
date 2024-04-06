@@ -32,3 +32,7 @@ ul{
     list-style: none;
     padding-right: 50px;
 }
+
+p{
+    text-align: center;
+}
