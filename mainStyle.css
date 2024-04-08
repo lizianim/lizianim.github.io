@@ -14,3 +14,23 @@ p{
     font-style: italic;
     text-decoration: underline;
 }
+
+.gallery{
+    width: 1090px;
+    margin-right: 50px;
+}
+.wrap{
+    display: flex;
+}
+.description{
+    max-width: 500px;
+}
+#SolarGalleryFrame{
+    width: 1090px;
+    height: 100%;
+}
+
+#BodyGalleryFrame{
+    width: 1090px;
+    height: 100vh;
+}
