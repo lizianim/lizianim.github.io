@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="outer">
+        <div>
+            <div id="loop">
+                <div id="content"> The server is in automated mode, do not reply to any messages. </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="loop.js"></script>
+
+
+    <div class="sidenav">
+        <ul>
+            <li><a href="#" onclick="openRightTopIframe('diagram.html')">diagram</a></li>
+            <li><a href="#" onclick="openRightBottomIframe('documents.html')">documents</a></li>
+            <li><a href="#" onclick="openIframe('mailbox.html')">mailbox</a></li>
+            <li><a href="mailto:sparecorp@outlook.com">mailto</a></li>
+        </ul>
+        <div id="image">
+            <img src="./documents/logo_only.png" alt="SpareCorp logo" style="width: 90%; padding-left: 10px;">
+        </div>
+    </div>
+
+    <div class="main">
+        <iframe id="contentIframe" src="" frameborder="0"></iframe>
+    </div>
+    <div class="right_top">
+        <iframe id="rightTopIframe" src="" frameborder="0"></iframe>
+    </div>
+    <div class="right_bottom">
+        <iframe id="rightBottomIframe" src="" frameborder="0"></iframe>
+    </div>
+    <script type="text/javascript" src="openIframe.js"></script>
+    
+    
+</body>
+</html>

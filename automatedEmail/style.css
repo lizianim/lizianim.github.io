@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Sometype Mono', monospace;
+    font-size: 400;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: black;
+}
+
+#image {
+    height: 75vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.head{
+    padding-left: 20px;
+}
+
+.head h2{
+    font-family: 'Times New Roman';
+    font-size: 3rem;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.sidenav{
+    height: 90vh;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    /*top: 0;
+    left: 0;*/
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+    border-color: blue;
+    overflow-x: hidden;
+}
+
+.sidenav ul {
+    list-style-type: "| ";
+    padding-top: 20px;
+    color: blue;
+}
+
+
+.main{
+    border: 3px solid;
+    border-color: blue;
+    margin-left: 200px;
+    height: 90vh;
+    width: 87vw;
+    position: fixed;
+
+}
+
+.right_top {
+    border: 3px solid;
+    border-color: blue;
+    margin-left: 70%;
+    width: 28.67%;
+    height: 45vh;
+
+    position: fixed;
+}
+
+.right_bottom {
+    border: 3px solid;
+    border-color: blue;
+    margin-left: 70%;
+    margin-top: 45vh;
+    width: 28.67%;
+    height: 45vh;
+
+    position: fixed;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.content ul{
+    list-style-type: "| ";
+    color: blue;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: black;
+}
+
+.content a:visited{
+    color: red;
+}
+
+.mail_info ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.mail_content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+iframe{
+    width: 60%;
+    height: 100%;
+}
+
+#outer{
+    overflow: hidden;
+}
+
+#outer div{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#loop{
+    white-space: nowrap;
+    animation: loop-anim 20s linear infinite;
+}
+
+@keyframes loop-anim{
+    0%{
+        margin-left: 0;
+    } 100%{
+        margin-left: -50%;
+    }
+}
