@@ -3,55 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../mainStyle.css">
     <title>Solar Eclipse</title>
 </head>
 <style>
     .gallery{
-        max-width: 1070px;
-        margin-right: 20px;
+        width: 1090px;
+        margin-right: 50px;
     }
     .wrap{
         display: flex;
+    }
+    .description{
+        max-width: 500px;
+    }
+    #galleryFrame{
+        width: 1090px;
+        height: 100%;
     }
 </style>
 <body>
     <div class="wrap">
         <div class="gallery">
-            <img src="./scan/01.jpeg">
-            <img src="./scan/02.jpeg">
-            <img src="./scan/03.jpeg">
-            <img src="./scan/04.jpeg">
-            <iframe src="https://player.vimeo.com/video/931572419?badge=0&amp;autopause=0&amp;;player_id=0&amp;app_id=58479?autoplay=1&loop=1&autopause=0" width="1070" height="812" frameborder="0" allow="autoplay;" ></iframe>
-            <img src="./scan/05.jpeg">
-            <img src="./scan/06.jpeg">
-            <img src="./scan/07.jpeg">
-            <img src="./scan/08.jpeg">
-            <img src="./scan/09.jpeg">
-            <img src="./scan/10.jpeg">
-            <img src="./scan/11.jpeg">
-            <img src="./scan/12.jpeg">
-            <img src="./scan/13.jpeg">
-            <img src="./scan/14.jpeg">
-            <img src="./scan/15.jpeg">
-            <iframe src="https://player.vimeo.com/video/931572437?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?autoplay=1&loop=1&autopause=0" width="1070" height="812" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Sorry for the shakyness, I was not watching the video while I was recording, I was watching the eclipse in person. [2005]"></iframe>
-            <img src="./scan/16.jpeg">
-            <img src="./scan/17.jpeg">
-            <img src="./scan/18.jpeg">
-            <img src="./scan/19.jpeg">
-            <img src="./scan/20.jpeg">
-            <img src="./scan/21.jpeg">
-            <img src="./scan/22.jpeg">
-            <img src="./scan/23.jpeg">
-            <img src="./scan/24.jpeg">
+            <iframe id="galleryFrame" src="./eclipseGallery.html" style="border: none;"></iframe>
         </div>
     
         <div class="description">
-            <h4>Deb's Solar Eclipses, 2024</h4>
-            <p>this shit aint nothing to me</p>
+            <h4>Occulated Body [2024]</h4>
+            <p class="subhead">concept archive</p>
+            <p>varvara pekhota<br>lisa ziebermayr</p>
+            <p>
+                Occulated Body is a collection of generated artifiacts, in which a image generation network has been trained with a small dataset of old phone camera pictures and solar eclipses.
+                The artifacts are inspired by low quality captures of natural phenomenons, which have been admired for generations, and attempted to capture.<br>
+                <br>
+                With image generators being trained to show high quality pictures, attempting to get as close to "real life" as possible, this work rather attempts to investigate the low quality image, and the significance it still has.
+            </p>
+
+            <img src="./DSCF1704.png" width="100%">
+            <h4>Deb's Solar Eclipses[1980 - 2019]</h4>
+            <p class="subhead">photographic collection, archive</p>
+            <p>
+                Explore the first exhibition showcasing the archive left behind by the late and unknown eclipse-chaser. The artist's name,
+                despite efforts of the research team, was never found, their only known aliias is their youtube nickname: Deb.
+                We can only wonder about them, try to reconstruct them, but that would not leave us further than we started - a vast collection of presences.
+                <br><br>
+                Chasing is instantaneous: a solar eclipse lasts around 7.5 minutes; it is also spacial: one has to be within a small area of the world to find the eclipse.
+                SOmething that seems as meaningless as chasing a natural phenomenon wiith a phone is, in fact, a life lived immediately. The constrast between the astronomical immensity of celestial bodies and the human looking for them in the sky suddenly vanishes.
+                <br><br>
+                For that reason this seems like a big opportunity: rather then displaying artworks, we are collecting artefacts.
+                Looking into the imperfections of footage, Deb's changing cameras and sonsequent changes of quality, our team managed to get a glimpse of the life itself.
+            </p>
+
+            <img src="./DSCF1705.png" width="100%">
+            <h4>Sorry for the shakyness, I was not watching the video while I was recording, I was watching the eclipse in person. [2005/2007]</h4>
+            <p class="subhead">Video footage</p>
+            <p>Accompanying the photographic collection, Deb has also made handheld footage - presumably with the same photo camera.</p>
+            <p>It is barely noticeable as a celestial body, almost rendering the eclipse to a mere pixel. But is that any less meaningful? Or does the small artifact of a sun in a 640 x 360 pixels screen tell us more of ourselves than we can imagine?</p>
+            <img src="./DSCF1728.png" width="100%">
         </div>
     </div>
-
 
 
 
