@@ -73,3 +73,8 @@ p{
     width: 1090px;
     height: 100%;
 }
+
+#mortemGalleryFrame{
+    width: 1090px;
+    height: 100vh;
+}
