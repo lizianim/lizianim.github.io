@@ -1,0 +1,23 @@
+
+
+img{
+    max-height: 80vh;
+    width: 400px;
+}
+
+.main{
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 400px;
+}
+
+p{
+    width: 400px;
+    height: auto;
+}
