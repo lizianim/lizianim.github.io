@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+img{
+    max-height: 80vh;
+    width: 400px;
+}
+
+.main{
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 400px;
+}
+
+.quote{
+    font-style: italic;
+    padding-left: 10px;
+}
+
+p{
+    width: 400px;
+    height: auto;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+}
+
+h4{
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+
+.quote {
+    font-size: italic;
+}
