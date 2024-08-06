@@ -45,6 +45,11 @@ p{
 .description{
     max-width: 500px;
 }
+
+.material{
+    font-style: italic;
+}
+
 #SolarGalleryFrame{
     width: 1090px;
     height: 100%;
