@@ -50,6 +50,11 @@ p{
     font-style: italic;
 }
 
+.notice{
+    font-style: italic;
+    color: red;
+}
+
 #SolarGalleryFrame{
     width: 1090px;
     height: 100%;
