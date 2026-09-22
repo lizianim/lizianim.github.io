@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background: #6f6f6f;
+}
+
+#intro_box {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+}
+
+#intro {
+    font-size: 3em;
+    color: white;
+}
